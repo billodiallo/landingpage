@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 0px;
+  }
+  
+  #header {
+    margin-top: 0px;
+    display: inline;
+    position: fixed;
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+  }
+  
+  #header-img {
+    width: 280px;
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+  
+  #nav-bar {
+    float: right;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+  }
+  
+  #form-div {
+    text-align: center;
+    display: block;
+    margin-top: 80px;
+  }
+  
+  #email {
+    width: 240px;
+    padding: 5px;
+  }
+  
+  #submit {
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    padding: 5px;
+    background-color: #eec30c;
+    font-weight: bolder;
+    border: none;
+  }
+  
+  .nav-link {
+    padding-right: 100px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+  }
+  
+  #pricing {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  #features {
+    margin-top: 100px;
+    padding-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15;
+  }
+  
+  #howitworks {
+    text-align: center;
+  }
+  
+  #products {
+    border-style: solid;
+    border-width: 1px;
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+  }
+  
+  #product-title {
+    background-color: #dddddd;
+    padding: 5px 0 5px 0;
+  }
+  
+  #select {
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #eec30c;
+    font-weight: bolder;
+    border: none;
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      background-color: aquamarine;
+    }
+  
+  }
+  
